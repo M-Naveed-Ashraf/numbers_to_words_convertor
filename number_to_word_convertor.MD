@@ -38,6 +38,15 @@ step6: if the length is 2 then
             ```
 
 
+version 3: numbers upto nontillion
+step1: check the length of the input
+step2: divide the whole input into the packets having length 3 or less
+step3: convert each packet into words and store the result into an array
+step4: create an array for breakpoint
 
-check the length of the input
-divide the whole input into the packets having length 3 or less
+    ```js
+        const arr = ['', 'thousand', 'million', 'billion', 'trillion', 'quadrillion', 'quintillion', 'sextillion', 'septillion', 'octillion', 'nonillion']
+    ```
+step5: take a breakpointVariable which shows the breakpoint while analysing the length of the array
+step6: create a for loop and each time concatenate a resulting string to output string and also add the breakpoint at the end
+step7: increment the breakpointVariable until it get to the last three digits of the input
