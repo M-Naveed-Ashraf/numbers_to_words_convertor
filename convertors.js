@@ -38,7 +38,5 @@ function threeDigitConvertor(digit) {
 }
 
 module.exports = {
-    singleDigitConvertor : singleDigitConvertor,
-    doubleDigitConvertor : doubleDigitConvertor,
     threeDigitConvertor : threeDigitConvertor
 }
