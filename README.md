@@ -1,3 +1,6 @@
+Numbers to Words Convertor
+
+
 version 1: number fro 0 to 9
 
 step1: initialize an array 
