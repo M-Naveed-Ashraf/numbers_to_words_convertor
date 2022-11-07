@@ -3,6 +3,12 @@ const prompt = require('prompt-sync')();
 
 let inputVal = prompt('Enter any number: ');
 
+// remove leading zeros
+inputVal = parseInt(inputVal);
+
+// again convert to string for further processing
+inputVal = String(inputVal);
+
 if(inputVal.length > 3){
     let res = []
     const arr = ['', 'thousand', 'million', 'billion', 'trillion', 'quadrillion', 'quintillion', 'sextillion', 'septillion', 'octillion', 'nonillion']
